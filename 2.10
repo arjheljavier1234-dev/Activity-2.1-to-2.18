@@ -1,0 +1,20 @@
+public static void main(String[] args)
+    {
+        int i = 1, j;
+
+        j = ++i;   // Pre-increment: i becomes 2, j = 2
+        System.out.println("Pre-increment: i=" + i + " j=" + j);
+
+        i = 1;
+        j = --i;   // Pre-decrement: i becomes 0, j = 0
+        System.out.println("Pre-decrement: i=" + i + " j=" + j);
+
+        i = 1;
+        j = i++;   // Post-increment: j=1, then i becomes 2
+        System.out.println("Post-increment: i=" + i + " j=" + j);
+
+        i = 1;
+        j = i--;   // Post-decrement: j=1, then i becomes 0
+        System.out.println("Post-decrement: i=" + i + " j=" + j);
+    }
+}

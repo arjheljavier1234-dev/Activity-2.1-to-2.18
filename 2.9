@@ -1,0 +1,11 @@
+public static void main(String[] args)
+    {
+        // Expression: 6%2*5+4/2+88-10
+        int result = 6 % 2 * 5 + 4 / 2 + 88 - 10;
+        System.out.println("6%2*5+4/2+88-10 = " + result);
+
+        // Rewritten with explicit parenthesis based on precedence
+        int result2 = ((6 % 2) * 5) + (4 / 2) + 88 - 10;
+        System.out.println("With parenthesis = " + result2);
+    }
+}

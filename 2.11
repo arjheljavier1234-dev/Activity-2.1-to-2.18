@@ -1,0 +1,14 @@
+public static void main(String[] args)
+    {
+        int wholeNumber = 10;
+        double decimalNumber = 5.5;
+
+        // int is implicitly converted to double before the operation
+        double sum = wholeNumber + decimalNumber;
+
+        System.out.println("wholeNumber = " + wholeNumber);
+        System.out.println("decimalNumber = " + decimalNumber);
+        System.out.println("sum (converted to double) = " + sum);
+    }
+}
+

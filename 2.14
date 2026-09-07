@@ -1,0 +1,10 @@
+public static void main(String[] args)
+    {
+        double price = 123.456789;
+
+        // %.2f = display up to 2 decimal places
+        System.out.printf("Price with 2 decimals: %.2f%n", price);
+        // %.1f = display up to 1 decimal place
+        System.out.printf("Price with 1 decimal: %.1f%n", price);
+    }
+}

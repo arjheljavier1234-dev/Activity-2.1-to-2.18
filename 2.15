@@ -1,0 +1,10 @@
+public static void main(String[] args)
+    {
+        int score = 85;
+
+        // %5d = display within a field size of 5 characters
+        System.out.printf("Score: [%5d]%n", score);
+        // %-5d = left-justify within a field size of 5
+        System.out.printf("Score: [%-5d]%n", score);
+    }
+}

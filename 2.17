@@ -1,0 +1,9 @@
+  public static void main(String[] args)
+    {
+        String course = JOptionPane.showInputDialog("Enter your course:");
+        String year = JOptionPane.showInputDialog("Enter your year level:");
+
+        String msg = "Course: " + course + "\nYear Level: " + year;
+        JOptionPane.showMessageDialog(null, msg);
+    }
+}
